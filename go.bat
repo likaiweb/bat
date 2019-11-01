@@ -1,5 +1,5 @@
-if %1 (
-d: & cd code/%1
+if "%1%"=="" (
+echo Please enter the directory to jump!!!
 ) else (
-  echo 请输入要跳转的目录
+cd d:\ & cd code/%1
 )
